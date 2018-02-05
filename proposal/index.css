@@ -1,0 +1,79 @@
+body
+{
+	text-align:center;
+	vertical-align:middle;
+}
+
+body .subunit.background
+{
+	fill: #ddc;
+	stroke: #777;
+	stroke-dasharray: 2,2;
+	stroke-linejoin: round;
+}
+
+body path.highlight
+{
+    stroke: #000;
+}
+
+.caption
+{
+	font-weight: bold;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {   
+ 	position: absolute;
+	text-align: center;
+	padding: 2px;
+	font: 12px sans-serif;
+    box-shadow: 0px 0px 5px grey;
+	background: gainsboro;
+	border: 2px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height:1.7;
+}
+
+
+div.page-header{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 4.0rem;
+    line-height: 1.12;
+    letter-spacing: -0.9px;
+    margin-bottom: .5em;
+    margin-top: 0;
+    color: #222;
+    text-align: center;
+}
+
+div.page-footer{
+    background:#f9f9f9;
+    text-align:left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height:1.7;
+}
+
+#myParagraph { 
+    font-size: 13px;
+}
+
+#buttongroup {
+    font-size: 13px;
+}
+
+div.col-md-2{
+    text-align:center;
+}
+#myAllign { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size:15px;
+}
